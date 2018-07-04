@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Name": "farmer1", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 36.922541407321667, -0.445090881340713, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "farmer2", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 36.948934659114947, -0.431969855957057, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "farmer3", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 36.945312488940012, -0.4437001710533, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "farmer4", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 36.938111780753339, -0.412728460251957, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "farmer6", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 36.979809808097649, -0.408717177532978, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "farmer8", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 36.987344256680693, -0.432507249358476, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "farmer9", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 36.972866289419443, -0.468118345365976, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "farmer10", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 36.942413608468733, -0.471963873692741, 0.0 ] } }
+]
+}
+
