@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Add a GeoJSON line</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2VubmV0aDdtdXJpaXRoaSIsImEiOiJjamo2eTA5YWIxdWNoM3Fsa2FrdzZ0eTMwIn0.4GiOhCU6g3klq0GwNpWlew';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [-0.45730105289266143, 36.8756103515625],
+    zoom: 15
+});
+
+map.on('load', function () {
+
+    map.addLayer({
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#d14e4e",
+        "marker-size": "medium",
+        "marker-symbol": "religious-jewish",
+        "NAME": "FARMER3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8756103515625,
+          -0.45730105289266143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#6ab532",
+        "marker-size": "medium",
+        "marker-symbol": "scooter",
+        "NAME": "FARMER6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.946678161621094,
+          -0.3597998813133666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.98822021484375,
+          -0.326841489086852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.915435791015625,
+          -0.5245898385048807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rocket",
+        "NAME": "FARMER4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.017059326171875,
+          -0.42159653727163704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.0843505859375,
+          -0.3378276323843183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.055511474609375,
+          -0.23071226715249907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.034912109375,
+          -0.08514401163112739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#da8282",
+        "marker-size": "medium",
+        "marker-symbol": "circle-stroked",
+        "NAME": "FARMER1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.79595947265625,
+          -0.15380840901698828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.816558837890625,
+          -0.24719161596904016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.868743896484375,
+          -0.5740260414817162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1f568c",
+        "marker-size": "medium",
+        "marker-symbol": "triangle-stroked",
+        "NAME": "FARMER5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.98822021484375,
+          -0.5287095375108173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.078857421875,
+          -0.44494181687807316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.135162353515625,
+          -0.4009977028958279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.06787109375,
+          -0.5575473528225678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.876983642578125,
+          -0.2952562615756504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#763d3d",
+        "marker-size": "medium",
+        "marker-symbol": "star",
+        "NAME": "FARMER1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.041778564453125,
+          -0.28152352541109416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.985130310058594,
+          -0.46554053178294846
+        ]
+      }
+    }
+  ]
+}
+    });
+});
+</script>
+
+</body>
+</html>
